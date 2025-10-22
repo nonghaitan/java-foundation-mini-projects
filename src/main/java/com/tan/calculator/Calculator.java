@@ -50,19 +50,28 @@ public class Calculator {
         scanner.close();
     }
 
-    static double add(double a, double b) { return a + b; }
-    static double subtract(double a, double b) { return a - b; }
-    static double multiply(double a, double b) { return a * b; }
-    static double divide(double a, double b) {
+    public static double add(double a, double b) {
+        return a + b;
+    }
+
+    public static double subtract(double a, double b) {
+        return a - b;
+    }
+
+    public static double multiply(double a, double b) {
+        return a * b;
+    }
+
+    public static double divide(double a, double b) {
         if (b == 0) throw new ArithmeticException("Cannot divide by zero");
         return a / b;
     }
 
-    static double calculatePower(double a, double b) {
+    public static double calculatePower(double a, double b) {
         return Math.pow(a, b);
     }
 
-    static double calculateSqrt(double a) {
+    public static double calculateSqrt(double a) {
         return Math.sqrt(a);
     }
 }

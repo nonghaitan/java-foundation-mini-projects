@@ -84,14 +84,13 @@ public class LibraryManagerTest {
         assertEquals(0, lm.getBooks().size());
     }
 
-    //Level 2
     @Test
     void testFindBooksByAuthor() {
         LibraryManager lm = new LibraryManager();
-        lm.addBook(new Book("Book A", "Author A", "ISBN001"));
-        lm.addBook(new Book("Book b", "Author A", "ISBN002"));
+        lm.addBook(new Book("Book A", "Author", "ISBN001"));
+        lm.addBook(new Book("Book B", "Author", "ISBN002"));
 
-        assertEquals(2, lm.findBooksByAuthor("Author A").size());
+        assertEquals(2, lm.findBooksByAuthor("Author").size());
     }
 
     @Test

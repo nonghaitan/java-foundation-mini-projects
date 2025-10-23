@@ -1,45 +1,52 @@
 # Java Foundation Mini Projects
 
 ## Overview
-This repository contains mini projects for **Month 1 – Java SE 8–17 Foundation + OCA Logic**.  
-The goal is to learn Java syntax, OOP, Collections, Stream API, Unit Testing, and develop early QA Automation mindset.
+Mini projects for **Month 1 – Java SE 8–17 Foundation + OCA Logic**.  
+Learn Java syntax, OOP, Collections, Stream API, Unit Testing, and QA Automation mindset.
 
 ---
 
-## Week 1
+## Week 1 Summary
 
 ### Day 1 – Core Syntax & Logic
-**Topics:**
-- Java basic syntax, variables, data types
-- Control flow: if, loops, switch
-- Methods & variable scope
-
-**Mini Project:** Calculator CLI
-- Functions: add, subtract, multiply, divide
-- Console input/output
-
----
+- Java basics, control flow, methods
+- **Project:** Calculator CLI (add, subtract, multiply, divide)
+- Unit tests for operations & exceptions
 
 ### Day 2 – Testing & Refactor
-**Topics:**
-- JUnit 5 basics
-- Clean Code & Exception Handling
-- Refactor Calculator code for readability and maintainability
+- JUnit 5, Clean Code, Exception Handling
+- Refactor Calculator for readability & maintainability
+- Focus on TDD and test-driven thinking
 
-**Unit Tests Implemented:**
-- `add`, `subtract`, `multiply`, `divide`
-- `calculatePower`, `calculateSqrt`
-- Test divide by zero using `assertThrows`
-
-**Notes:**
-- All Calculator methods are `public static` for simplicity
-- Tests verify correct behavior and exceptions
-- Introduces QA mindset and test-driven thinking
+### Day 3 – Collections & OOP
+- OOP, ArrayList, HashMap, Stream API, Optional
+- **Project:** Library Manager
+    - `Book` class, `LibraryManager` implements `LibraryService`
+    - Level 1: Basic operations (add, remove, update, find, count, clear)
+    - Level 2: Functional (find by author, hasBook, Optional)
+    - Level 3: Refactor to HashMap + console app (`LibraryApp`) with menu
+- Unit tests: Level 1 & 2
+- Manual testing: Level 3 console menu
 
 ---
 
-## How to Run Tests
+## How to Run
+1. Run JUnit tests for Level 1 & 2
+2. Run `LibraryApp.main()` for Level 3
+3. Interact via console menu
 
-1. Clone repository:
-```bash
-git clone https://github.com/nonghaitan/java-foundation-mini-projects.git
+---
+
+## Project Structure
+src/
+└─ com/tan/library/
+├─ Book.java
+├─ LibraryManager.java
+├─ LibraryService.java
+└─ LibraryApp.java
+test/
+└─ com/tan/library/
+└─ LibraryManagerTest.java
+
+---
+

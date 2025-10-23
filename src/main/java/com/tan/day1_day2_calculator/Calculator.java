@@ -1,4 +1,4 @@
-package com.tan.calculator;
+package com.tan.day1_day2_calculator;
 
 import java.util.Scanner;
 

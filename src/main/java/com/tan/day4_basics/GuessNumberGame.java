@@ -1,4 +1,4 @@
-package com.tan.basics;
+package com.tan.day4_basics;
 
 import java.util.Random;
 import java.util.Scanner;

@@ -1,6 +1,6 @@
-package com.tan.tests;
+package com.tan.day1_day2_tests;
 
-import com.tan.calculator.Calculator;
+import com.tan.day1_day2_calculator.Calculator;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

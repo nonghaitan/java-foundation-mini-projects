@@ -1,4 +1,4 @@
-package com.tan.basics;
+package com.tan.day4_basics;
 
 public class OperatorsPractice {
     public static void main(String[] args) {

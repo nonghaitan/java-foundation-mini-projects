@@ -1,4 +1,4 @@
-package com.tan.library;
+package com.tan.day3_library;
 
 public class Book {
     private String title;

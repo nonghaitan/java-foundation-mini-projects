@@ -1,4 +1,4 @@
-package com.tan.library;
+package com.tan.day3_library;
 
 import java.util.*;
 import java.util.stream.Collectors;
